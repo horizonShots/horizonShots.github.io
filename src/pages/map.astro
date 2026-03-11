@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { MapExplorer } from '../components/MapExplorer';
+---
+
+<Layout title="Map | horizonShots">
+	<main class="min-h-screen relative z-10">
+        <MapExplorer client:load />
+	</main>
+</Layout>

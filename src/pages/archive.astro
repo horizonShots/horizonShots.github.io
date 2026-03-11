@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { ArchiveCrates } from '../components/ArchiveCrates';
+---
+
+<Layout title="Archive | horizonShots">
+	<main class="min-h-screen relative z-10">
+        <ArchiveCrates client:load />
+	</main>
+</Layout>
